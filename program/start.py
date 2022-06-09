@@ -77,18 +77,7 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton("𓄼الحساب المساعد𓄹", url=f"https://t.me/l2_lI"),
                     InlineKeyboardButton("𓄼المطور𓄹", url=f"https://t.me/MOA_YAD"),
                 ],
-                [InlineKeyboardButton("𓄼طريقة التفعيل𓄹", callback_data="cbhowtouse")],
-                [InlineKeyboardButton("𓄼الاوامــر𓄹", callback_data="cbcmds"),
-                 InlineKeyboardButton("𓄼الــمــطــور𓄹", url=f"https://t.me/{OWNER_NAME}"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "𓄼جروب البوت𓄹", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "𓄼قناة البوت𓄹", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
+                [InlineKeyboardButton("𓄼طريقة التفعيل𓄹", callback_data="cbhowtouse")]
                 [
                     InlineKeyboardButton("اضف البوت  لمجموعتك ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],
