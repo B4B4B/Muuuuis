@@ -1,16 +1,16 @@
 {
-    "name": "سيلفا بوتات ميوزك",
-    "description": "⿻↬──────@SO_SELVA للمعرفة تحديثات تابعوا قناتنا معرف قناتنا",
-    "logo": "https://telegra.ph/file/10bfc5e7d6ab441832a65.jpg",
+    "name": "بوت ميوزك",
+    "description": "",
+    "logo": "https://telegra.ph/MOA-YAD-06-08",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/SO_SELVA",
-    "repository": "https://github.com/nemo295/soka",
-    "success_url": "https://t.me/J0KER7x",
+    "website": "https://t.me/MOA_YAD",
+    "repository": "https://github.com/noayad/-",
+    "success_url": "https://t.me/MOA_YAD",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -23,17 +23,17 @@
         "BOT_TOKEN": {
             "description": "قم بوضع توكن البوت الخاص بك هنا",
             "required": true,
-            "value": "5086017506:AAH0kLHo57wptdpmDagqUMays_tLAULjUw4"
+            "value": ""
         },
         "BOT_USERNAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true,
-            "value": "Joker7x_bot"
+            "value": ""
         },
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": "MRLido7x"
+            "value": ""
         },
         "SESSION_NAME": {
             "description": "قم بوضع كود تيرمكس هنا",
@@ -42,17 +42,17 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true,
-            "value": "776886547"
+            "value": ""
         },
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "br_selva"
+            "value": ""
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "SO_SELVA"
+            "value": ""
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
@@ -67,12 +67,12 @@
         "DEV_NAME": {
             "description": "ضع اسم حساب التليجرام الخاص بالمطور",
             "required": true,
-            "value": "𓆩 آݪــمــبــرمــج ݪــيدو 𓆪" 
+            "value": "" 
         },
         "BOT_NAME": {
             "description": "ضع هنا اسم البوت",
             "required": true,
-            "value": "سيلفا"
+            "value": ""
         },
         "MONGODB_URL": {
             "description": "لا تغيره!",
