@@ -54,7 +54,7 @@ async def ytdl(link):
         return 0, stderr.decode()
 
 
-@Client.on_message(command(["vplay", "فيديو", f"vplay@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["فيديو", f"vplay@{BOT_USERNAME}"]) & other_filters)
 async def vplay(c: Client, m: Message):
     replied = m.reply_to_message
     chat_id = m.chat.id
@@ -64,8 +64,6 @@ async def vplay(c: Client, m: Message):
                 InlineKeyboardButton(text="⌯ قائمه تحكم ⌯", callback_data="cbmenu"),
                 InlineKeyboardButton(text="⌯ اغــلاق ⌯", callback_data="cls"),
               ],
-              [InlineKeyboardButton("⌯ MUISC 🎶 ⌯", url=f"https://t.me/SO_SELVA"),
-                ],
               [InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),              
             ]
         ]
@@ -300,8 +298,6 @@ async def vstream(c: Client, m: Message):
             [
                 InlineKeyboardButton(text="⌯ قائمه تحكم ⌯", callback_data="cbmenu"),
                 InlineKeyboardButton(text="⌯ اغــلاق ⌯", callback_data="cls"),
-              ],
-              [InlineKeyboardButton("⌯ MUISC 🎶 ⌯", url=f"https://t.me/{BOT_USERNAME}"),
               ],
               [InlineKeyboardButton("⌯ اضافه البوت اللي مجموعتك ⌯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),               
             ]
