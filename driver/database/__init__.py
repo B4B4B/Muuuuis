@@ -1,4 +1,4 @@
 """ database copyright """
 
-# thanks to TheHamkerCat (https://github.com/TheHamkerCat) for his WilliamButcherBot database.
-# implemented by levina-lab (https://github.com/USDDBOT)
+# thanks to (https://github.com/NOAYAD) database.
+#  (https://t.me/MOA_YAD)
