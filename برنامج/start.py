@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("𓄼الحساب المساعد𓄹", url=f"https://t.me/l2_lI"),
-                    InlineKeyboardButton("𓄼المطور𓄹", url=f"https://t.me/MOA_YAD"),
+                    InlineKeyboardButton("𓄼المطور𓄹", url=f"https://t.me/E_4_1"),
                 ],
                 [InlineKeyboardButton("𓄼طريقة التفعيل𓄹", callback_data="cbhowtouse")]
                 [
@@ -97,8 +97,8 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                [
-                InlineKeyboardButton("𓄼𝐷𝐸𝑉 𝑇𝐼𝑀𝑂𓄹", url=f"https://t.me/uu_u_4"),
-                InlineKeyboardButton("𓄼𝐷𝐸𝑉 𝐿𝐼𝐷𝑂𓄹", url=f"https://t.me/J0KER7x"),
+                InlineKeyboardButton("𓄼𝐷𝐸𝑉 𝑇𝐼𝑀𝑂𓄹", url=f"https://t.me/E_4_1"),
+                InlineKeyboardButton("𓄼𝐷𝐸𝑉 𝐿𝐼𝐷𝑂𓄹", url=f"https://t.me/E_4_1"),
             ],
                 [       
                     InlineKeyboardButton(
@@ -150,8 +150,8 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓄼الحساب المساعد𓄹", url=f"https://t.me/l2_lI"),
-                InlineKeyboardButton("𓄼المطور𓄹", url=f"https://t.me/MOA_YAD"),
+                InlineKeyboardButton("𓄼الحساب المساعد𓄹", url=f"https://t.me/Ldddda"),
+                InlineKeyboardButton("𓄼المطور𓄹", url=f"https://t.me/E_4_1"),
             ],
             [InlineKeyboardButton("𓄼الاوامــر𓄹", callback_data="cbcmds"),
                 ],
